@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="product" class="com.spring.ProductBean"> 
+		<constructor-arg value="101"/>
+		<constructor-arg value="facepack"/>
+		<constructor-arg value="450.99"/>
+		<constructor-arg value="1"/>
+		
+	</bean>
+	
+	<bean id="order" class="com.spring.OrderBean"> 
+		<constructor-arg value="1"/>
+		<constructor-arg  ref="product"/>
+		
+	</bean>
+	
+	
+</beans>

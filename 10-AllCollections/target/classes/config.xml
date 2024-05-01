@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="tech" class="com.Collections.Allcollections"> 
+		
+		<property name="empnames">
+			<list>
+				<value>manu</value>
+				<value>tharuna</value>
+				
+			</list>
+		</property>
+		<property name="empnum">
+			<set>
+				<value>1</value>
+				<value>2</value>
+				
+			</set>
+		</property>
+				<property name="empDepno">
+			<map>
+				<entry key="Java-FullStack" value="101"/>
+				<entry key=".net-Fullstack" value="102"/>
+				
+			</map>
+		</property>
+
+		<property name="empsalary">
+			<props>
+				<prop key="101">25000.60</prop>
+				<prop key="102">26000.88</prop>
+			</props>
+		</property>
+		
+	</bean>
+	</beans>

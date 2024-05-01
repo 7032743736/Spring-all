@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="tech" class="com.map.MapEx"> 
+		<property name="StudentCources">
+			<map>
+				<entry key="Java-FullStack" value="ui-backend"/>
+				<entry key=".net-Fullstack" value="frontedend-backend"/>
+				<entry key="datascience"  value="python-r,sql,tools"/>
+			</map>
+		</property>
+		
+		<!--<constructor-arg>
+        <map>
+            <entry key="Java-FullStack" value="ui-backend"/>
+				<entry key=".net-Fullstack" value="frontedend-backend"/>
+				<entry key="datascience"  value="python-r,sql,tools"/>
+        <map>
+    </constructor-arg> -->
+		
+	</bean>
+	</beans>

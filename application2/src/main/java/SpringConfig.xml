@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+	 
+	<bean id="multi" class="spr.app.application2.BeanClass2"> 
+		<property name="number1" value="30"></property>
+		<property name="number2" value="10"></property>
+	</bean>
+</beans>
